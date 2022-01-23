@@ -31,7 +31,7 @@ jobs:
             ${{ secrets.DOCKERHUB_USERNAME }}/conversao-temperatura:latest
             
   CD:
-    runs-on: ubuntu-latest,
+    runs-on: ubuntu-latest
     needs: [CI]
     
     steps: 
