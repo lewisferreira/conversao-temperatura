@@ -7,7 +7,7 @@ metadata:
 spec:
   containers:
   - name: web
-    image: fabricioveronez/conversao-temperatura:v1
+    image: lewisferreira/conversao-temperatura:v1
     # resources:
     #   limits:
     #     memory: "128Mi"
